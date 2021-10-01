@@ -1,3 +1,3 @@
 # Sistemas Distribuidos
-## Ciência da Computação
-### Departamento de Computação / UFRPE
+Prof. Robson Medeiros
+Departamento de Computação / UFRPE
