@@ -24,9 +24,9 @@ package br.ufrpe.dc.clienterpc;
 
           // Faz uma chamada remota
           Object[] params = new Object[]
-              { new Float(2.0f), new Float(3.0f) };
+              { 2.0f, 3.0f };
           Float result = (Float) client.execute("Calculadora.somar", params);
-          System.out.println("2 + 3 = " + result);
+          System.out.println("40 + 9 = " + result);
         
           
       }
