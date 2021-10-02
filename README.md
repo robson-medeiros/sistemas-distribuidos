@@ -1,4 +1,4 @@
-# Sistemas Distribuídos (14059)
+# Sistemas Distribuídos
 
 ## Departamento
 
