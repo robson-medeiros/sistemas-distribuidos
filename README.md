@@ -3,7 +3,7 @@
 
 ## Curso
 
-Ciência da Computação, [Departamento de Computação](http://dc.ufrpe.br), ([UFRPE](http://www.ufrpe.br))
+[Ciência da Computação](http://www.bcc.ufrpe.br/), [Departamento de Computação](http://dc.ufrpe.br), ([UFRPE](http://www.ufrpe.br))
 
 
 
