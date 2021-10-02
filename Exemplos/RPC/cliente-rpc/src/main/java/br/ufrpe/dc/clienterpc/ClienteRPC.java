@@ -9,9 +9,12 @@ package br.ufrpe.dc.clienterpc;
   public class ClienteRPC {
       public static void main(String[] args) throws Exception {
           // Configurações
-          XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
+          
+    	  XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
+    	  
           config.setServerURL(new URL("http://localhost:8080/xmlrpc"));
-          config.setEnabledForExtensions(true); // Abilita  valores float
+          
+          config.setEnabledForExtensions(true); // Habilita  valores float
           
 
           XmlRpcClient client = new XmlRpcClient();
@@ -24,8 +27,8 @@ package br.ufrpe.dc.clienterpc;
 
           // Faz uma chamada remota
           Object[] params = new Object[]
-              { 2.0f, 3.0f };
-          Float result = (Float) client.execute("Calculadora.somar", params);
+              { 2.0, 3.0 };
+          double result = (double)client.execute("Calculadora.somar", params);
           System.out.println("40 + 9 = " + result);
         
           
