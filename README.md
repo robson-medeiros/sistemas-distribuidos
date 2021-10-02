@@ -1,5 +1,13 @@
 # Sistemas Distribuídos
 
+
+
+## Professor
+
+[Robson Medeiros, Dr.](https://robson-medeiros.github.io/)
+
+
+
 ## Departamento
 
 [Departamento de Computação, UFRPE](http://dc.ufrpe.br)
@@ -8,11 +16,6 @@
 
 [Ciência da Computação](http://www.bcc.ufrpe.br/)
 
-
-
-## Professor
-
-[Robson Medeiros, Dr.](https://robson-medeiros.github.io/)
 
 
 ## Ementa
