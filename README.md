@@ -12,7 +12,7 @@
 
 ## Professor
 
-[Robson Medeiros, Dr.](robson-medeiros.github.io)
+[Robson Medeiros, Dr.](https://robson-medeiros.github.io/)
 
 
 ## Ementa
