@@ -2,19 +2,19 @@ package br.ufrpe.dc.servidorrpc;
 
 public class Calculadora {
 	
-	public float somar(float x, float y) {
+	public double somar(double x, double y) {
 		return x + y;
 	}
 	
-	public float multiplicar(float x, float y) {
+	public double multiplicar(double x, double y) {
 		return x * y;
 	}
 	
-	public float subtrair(float x, float y) {
+	public double subtrair(double x, double y) {
 		return x - y;
 	}
 	
-	public float dividir(float x, float y) {
+	public double dividir(double x, double y) {
 		return x / y;
 	}
 
