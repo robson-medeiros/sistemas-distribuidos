@@ -1,5 +1,8 @@
-# Sistemas Distribuidos
-Prof. Robson Medeiros
-Departamento de Computação / UFRPE
+# Sistemas Distribuídos - 14059
 
-Estes projetos foram desenvolvidos com base em https://ws.apache.org/xmlrpc/server.html
+
+## Ciência da Computação, [Departamento de Computação](http://dc.ufrpe.br), ([UFRPE](http://www.ufrpe.br))
+
+### Professor
+
+- **Professor** Robson Wagner Albuquerque de Medeiros ([robson.medeiros@ufrpe.br](mailto:robson.medeiros@ufrpe.br))
