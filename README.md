@@ -2,7 +2,7 @@
 
 ## Departamento
 
-[Departamento de Computação](http://dc.ufrpe.br), [UFRPE](http://www.ufrpe.br)
+[Departamento de Computação, UFRPE](http://dc.ufrpe.br)
 
 ## Curso
 
