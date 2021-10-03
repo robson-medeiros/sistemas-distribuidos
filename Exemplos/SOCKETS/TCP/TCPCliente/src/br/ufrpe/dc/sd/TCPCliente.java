@@ -26,8 +26,16 @@ public class TCPCliente {
 					DataInputStream in = new DataInputStream(s.getInputStream());
 					DataOutputStream out = new DataOutputStream(s.getOutputStream());
 					out.writeUTF(nome); // UTF é uma codificação de string; veja a Seção 4.3
-					String data = in.readUTF();
-					System.out.println("Resposta: " + data);
+
+					String data;
+					
+					//Recebendo todas as mensagem enviadas pelo servidor até chegar Bye
+					do {
+						data = in.readUTF();
+						System.out.println("Resposta: " + data);
+					} while (!data.contains("Bye"));
+
+					
 				}
 			} catch (UnknownHostException e) {
 				System.out.println("Sock:" + e.getMessage());

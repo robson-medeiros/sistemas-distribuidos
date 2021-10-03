@@ -9,10 +9,13 @@ public class TCPServidor {
 		try {
 			int serverPort = 7896;
 			ServerSocket listenSocket = new ServerSocket(serverPort);
-
+			System.out.println("Servidor escutando na porta " + serverPort);
+			
 			while (true) {
 
 				Socket clientSocket = listenSocket.accept();
+				System.out.println("Nova mensagem chegando ... ");
+				
 				Connection c = new Connection(clientSocket);
 			}
 		} catch (IOException e) {
@@ -38,9 +41,14 @@ class Connection extends Thread {
 	}
 
 	public void run() {
-		try { // an echo server
+		try { 
+			
+			//Mandando várias mensagem para o cliente
 			String data = in.readUTF();
 			out.writeUTF("Olá, " + data + "!");
+			out.writeUTF("Como você está?");
+			out.writeUTF("Espero que esteja bem.");
+			out.writeUTF("Bye!");
 		} catch (EOFException e) {
 			System.out.println("EOF:" + e.getMessage());
 		} catch (IOException e) {
@@ -50,6 +58,7 @@ class Connection extends Thread {
 				in.close();
 				out.close();
 				clientSocket.close();
+				System.out.println("Conexão encerrada.....");
 			} catch (IOException e) {
 				System.out.println("FALHA NO FECHAMENTO: " + e.getMessage());
 			}
